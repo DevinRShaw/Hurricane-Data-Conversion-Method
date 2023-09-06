@@ -1,2 +1,4 @@
-# hurripy
-Data manipulation method to convert hurricane data into a summary format
+# Purpose
+This notebook outlines a method of converting hurricane data into a summary format. The original format contains "moments" of storms where each moment contains an ID that identifies the storm it is from, along with several other weather variables from that specific point in time. The new format converts the several moments, which are represented as point geometries, into paths representing the entire storm and its summary weather data, which is represented as line string geometries. 
+# Use Cases
+This summary concept could be used in time series analysis to look into changes in the overall behavior of hurricanes over time. Hurricane summaries could be compared to weather conditions from different dates in matching dates for analysis of how those factors affect the hurricanes overall.  
